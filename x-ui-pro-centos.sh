@@ -49,11 +49,11 @@ while true; do
 	if [[ "${SubDomain}.${MainDomain}" != "${domain}" ]] ; then
 		MainDomain=${domain}
 	fi
-	if [[ -n "$domain" ]] ; then
-		if [[ -n $(host "$domain" 2>/dev/null | grep -v NXDOMAIN) ]]; then
-			break
-		fi
-	fi
+	# if [[ -n "$domain" ]] ; then
+	# 	if [[ -n $(host "$domain" 2>/dev/null | grep -v NXDOMAIN) ]]; then
+	# 		break
+	# 	fi
+	# fi
 	echo -en "Enter available subdomain (sub.domain.tld): " && read domain 
  	echo "selected domain: $domain"
 done
