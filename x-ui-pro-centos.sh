@@ -55,8 +55,10 @@ while true; do
 		fi
 	fi
 	echo -en "Enter available subdomain (sub.domain.tld): " && read domain 
+ 	echo "selected domain: $domain"
 done
 ###############################Install Packages#############################
+echo "install? ${INSTALL}"
 if [[ ${INSTALL} == *"y"* ]]; then
 	$Pak -y update
 	$Pak -y install nginx certbot python3-certbot-nginx sqlite
