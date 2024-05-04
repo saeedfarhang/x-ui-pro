@@ -16,7 +16,7 @@
 **Install Panel**:dvd::package:
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/master/x-ui-pro.sh) -install yes -panel 0
+bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/x-ui-pro.sh) -install yes -panel 0
 ```
 > -panel 0>alireza 1>MHSanaei 2>FranzKafkaYu
 > 
@@ -28,33 +28,33 @@ bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/master/x-ui-pro.
 >
 **Add more domains**:heavy_plus_sign:	
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/master/x-ui-pro.sh) -subdomain sub.newdomain.com
+bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/x-ui-pro.sh) -subdomain sub.newdomain.com
 ```
 
 **Random fake html site**:earth_asia:	
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/master/randomfakehtml.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/randomfakehtml.sh)
 ```
 
 **Uninstall**:x:
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/master/x-ui-pro.sh) -uninstall yes
+bash <(wget -qO- https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/x-ui-pro.sh) -uninstall yes
 ```
 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ### Server Configuration :wrench:🐧⚙️
-![](https://raw.githubusercontent.com/saeedfarhang/master/media/admin_config.png)
-![](https://raw.githubusercontent.com/saeedfarhang/master/media/trojan_grpc_admin.png)
+![](https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/media/admin_config.png)
+![](https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/media/trojan_grpc_admin.png)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ### Client Configuration :white_check_mark:	:computer:🔌
-![](https://raw.githubusercontent.com/saeedfarhang/master/media/client_config.png)
+![](https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/media/client_config.png)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ### Fix Error 403 (Forbidden)❗️❗️ Google
-![](https://raw.githubusercontent.com/saeedfarhang/master/media/error403Google.png)
+![](https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/media/error403Google.png)
 > bash > x-ui
 > 
-![](https://raw.githubusercontent.com/saeedfarhang/master/media/warp.png)
-![](https://raw.githubusercontent.com/saeedfarhang/master/media/xui-warp.png)
+![](https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/media/warp.png)
+![](https://raw.githubusercontent.com/saeedfarhang/x-ui-pro/master/media/xui-warp.png)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ### Cloudflare Find Good IP (VPN off❗ during scanning)
 Cloudflare IP Ranges: https://www.cloudflare.com/ips/
