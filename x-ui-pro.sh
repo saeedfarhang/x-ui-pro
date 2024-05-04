@@ -50,9 +50,9 @@ while true; do
 		MainDomain=${domain}
 	fi
 	if [[ -n "$domain" ]] ; then
-		if [[ -n $(host "$domain" 2>/dev/null | grep -v NXDOMAIN) ]]; then
+		# if [[ -n $(host "$domain" 2>/dev/null | grep -v NXDOMAIN) ]]; then
 			break
-		fi
+		# fi
 	fi
 	echo -en "Enter available subdomain (sub.domain.tld): " && read domain 
 done
